@@ -4,6 +4,8 @@ RUN mkdir app
 
 WORKDIR app
 
+RUN pwd
+
 COPY package.json ./package.json
 RUN npm install
 

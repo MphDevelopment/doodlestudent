@@ -1,8 +1,12 @@
 FROM maven:3-openjdk-11
 
-COPY ./pom.xml ./pom.xml
-COPY ./src ./src
-#COPY ./lib ./lib
+WORKDIR .
+
+RUN pwd
+
+COPY src/ ./src/
+COPY pom.xml	./pom.xml
+#COPY lib ./lib
 
 RUN mvn install -Dmaven.test.skip=true 
 

@@ -1,0 +1,627 @@
+Attaching to doodlestudent_back_1, doodlestudent_etherpad_1, myadmin, doodlestudent_front_1, db, doodlestudent_mail_1
+[36mdb          |[0m 2021-01-30 16:17:11+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.22-1debian10 started.
+[36mdb          |[0m 2021-01-30 16:17:11+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[36mdb          |[0m 2021-01-30 16:17:11+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.22-1debian10 started.
+[32metherpad_1  |[0m All relative paths will be interpreted relative to the identified Etherpad base dir: /opt/etherpad-lite
+[32metherpad_1  |[0m Random string used for versioning assets: 0911dcab
+[32metherpad_1  |[0m [36m[2021-01-30 16:17:11.178] [DEBUG] AbsolutePaths - [39mRelative path "settings.json" can be rewritten to "/opt/etherpad-lite/settings.json"
+[32metherpad_1  |[0m [36m[2021-01-30 16:17:11.179] [DEBUG] AbsolutePaths - [39mRelative path "credentials.json" can be rewritten to "/opt/etherpad-lite/credentials.json"
+[32metherpad_1  |[0m settings loaded from: /opt/etherpad-lite/settings.json
+[32metherpad_1  |[0m Environment variable "TITLE" not found for configuration key "title". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "FAVICON" not found for configuration key "favicon". Falling back to default value.
+[35mfront_1     |[0m [*] Starting bunkerized-nginx ...
+[32metherpad_1  |[0m Environment variable "SKIN_NAME" not found for configuration key "skinName". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "SKIN_VARIANTS" not found for configuration key "skinVariants". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "IP" not found for configuration key "ip". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PORT" not found for configuration key "port". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "SHOW_SETTINGS_IN_ADMIN_PAGE" not found for configuration key "showSettingsInAdminPage". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "DB_TYPE" not found for configuration key "dbType". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "DB_FILENAME" not found for configuration key "filename". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "DEFAULT_PAD_TEXT" not found for configuration key "defaultPadText". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_NO_COLORS" not found for configuration key "noColors". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_SHOW_CONTROLS" not found for configuration key "showControls". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_SHOW_CHAT" not found for configuration key "showChat". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_SHOW_LINE_NUMBERS" not found for configuration key "showLineNumbers". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_USE_MONOSPACE_FONT" not found for configuration key "useMonospaceFont". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_USER_NAME" not found for configuration key "userName". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_USER_COLOR" not found for configuration key "userColor". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_RTL" not found for configuration key "rtl". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_ALWAYS_SHOW_CHAT" not found for configuration key "alwaysShowChat". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_CHAT_AND_USERS" not found for configuration key "chatAndUsers". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_OPTIONS_LANG" not found for configuration key "lang". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_ALT_F9" not found for configuration key "altF9". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_ALT_C" not found for configuration key "altC". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_SHIFT_2" not found for configuration key "cmdShift2". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_DELETE" not found for configuration key "delete". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_RETURN" not found for configuration key "return". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_ESC" not found for configuration key "esc". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_S" not found for configuration key "cmdS". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_TAB" not found for configuration key "tab". Falling back to default value.
+[35mfront_1     |[0m [*] Skipping configuration process
+[32metherpad_1  |[0m Environment variable "DB_HOST" does not contain any value for configuration key "host", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "DB_PORT" does not contain any value for configuration key "port", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "DB_NAME" does not contain any value for configuration key "database", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "DB_USER" does not contain any value for configuration key "user", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "DB_PASS" does not contain any value for configuration key "password", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "DB_CHARSET" does not contain any value for configuration key "charset", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_Z" not found for configuration key "cmdZ". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_Y" not found for configuration key "cmdY". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_I" not found for configuration key "cmdI". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_B" not found for configuration key "cmdB". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_U" not found for configuration key "cmdU". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_5" not found for configuration key "cmd5". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_SHIFT_L" not found for configuration key "cmdShiftL". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_SHIFT_N" not found for configuration key "cmdShiftN". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_SHIFT_1" not found for configuration key "cmdShift1". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_SHIFT_C" not found for configuration key "cmdShiftC". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CMD_H" not found for configuration key "cmdH". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_CTRL_HOME" not found for configuration key "ctrlHome". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_PAGE_UP" not found for configuration key "pageUp". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "PAD_SHORTCUTS_ENABLED_PAGE_DOWN" not found for configuration key "pageDown". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "SUPPRESS_ERRORS_IN_PAD_TEXT" not found for configuration key "suppressErrorsInPadText". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "REQUIRE_SESSION" not found for configuration key "requireSession". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "EDIT_ONLY" not found for configuration key "editOnly". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "SESSION_NO_PASSWORD" not found for configuration key "sessionNoPassword". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "MINIFY" not found for configuration key "minify". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "MAX_AGE" not found for configuration key "maxAge". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "ALLOW_UNKNOWN_FILE_ENDS" not found for configuration key "allowUnknownFileEnds". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "REQUIRE_AUTHENTICATION" not found for configuration key "requireAuthentication". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "REQUIRE_AUTHORIZATION" not found for configuration key "requireAuthorization". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "TRUST_PROXY" not found for configuration key "trustProxy". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "DISABLE_IP_LOGGING" not found for configuration key "disableIPlogging". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "AUTOMATIC_RECONNECTION_TIMEOUT" not found for configuration key "automaticReconnectionTimeout". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "FOCUS_LINE_PERCENTAGE_ABOVE" not found for configuration key "editionAboveViewport". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "FOCUS_LINE_PERCENTAGE_BELOW" not found for configuration key "editionBelowViewport". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "FOCUS_LINE_DURATION" not found for configuration key "duration". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "FOCUS_LINE_CARET_SCROLL" not found for configuration key "scrollWhenCaretIsInTheLastLineOfViewport". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "FOCUS_LINE_PERCENTAGE_ARROW_UP" not found for configuration key "percentageToScrollWhenUserPressesArrowUp". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "LOAD_TEST" not found for configuration key "loadTest". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "IMPORT_EXPORT_RATE_LIMIT_WINDOW" not found for configuration key "windowMs". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "IMPORT_EXPORT_MAX_REQ_PER_IP" not found for configuration key "max". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "IMPORT_MAX_FILE_SIZE" not found for configuration key "importMaxFileSize". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "EXPOSE_VERSION" not found for configuration key "exposeVersion". Falling back to default value.
+[32metherpad_1  |[0m Environment variable "LOGLEVEL" not found for configuration key "loglevel". Falling back to default value.
+[32metherpad_1  |[0m No credentials file found in /opt/etherpad-lite/credentials.json. Ignoring.
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:11.201] [INFO] console - [39mUsing skin "colibris" in dir: /opt/etherpad-lite/src/static/skins/colibris
+[32metherpad_1  |[0m [33m[2021-01-30 16:17:11.201] [WARN] console - [39mRemoving user "admin", because its "password" is null.
+[32metherpad_1  |[0m [33m[2021-01-30 16:17:11.201] [WARN] console - [39mRemoving user "user", because its "password" is null.
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:11.201] [INFO] console - [39mSession key loaded from: /opt/etherpad-lite/SESSIONKEY.txt
+[32metherpad_1  |[0m [33m[2021-01-30 16:17:11.201] [WARN] console - [39mDirtyDB is used. This is fine for testing but not recommended for production. File location: /opt/etherpad-lite/var/dirty.db
+[32metherpad_1  |[0m Environment variable "ABIWORD" does not contain any value for configuration key "abiword", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "SOFFICE" does not contain any value for configuration key "soffice", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "TIDY_HTML" does not contain any value for configuration key "tidyHtml", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "ADMIN_PASSWORD" does not contain any value for configuration key "password", and no default was given. Returning null.
+[32metherpad_1  |[0m Environment variable "USER_PASSWORD" does not contain any value for configuration key "password", and no default was given. Returning null.
+[36;1mmyadmin     |[0m AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[36;1mmyadmin     |[0m AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[36;1mmyadmin     |[0m [Sat Jan 30 16:17:11.047839 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.14 configured -- resuming normal operations
+[36;1mmyadmin     |[0m [Sat Jan 30 16:17:11.047967 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[35mfront_1     |[0m [*] Running nginx ...
+[34mmail_1      |[0m     1 LOG: MAIN
+[34mmail_1      |[0m     1   exim 4.89 daemon started: pid=1, -q30m, listening for SMTP on port 25 (IPv6 and IPv4)
+[35mfront_1     |[0m [*] Running fail2ban ...
+[36mdb          |[0m 2021-01-30T16:17:11.552874Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.22) starting as process 1
+[36mdb          |[0m 2021-01-30T16:17:11.565414Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+[32metherpad_1  |[0m [33m[2021-01-30 16:17:11.637] [WARN] console - [39mUpdate available: Download the actual version 1.8.7
+[35mfront_1     |[0m 2021-01-30 16:17:11,700 fail2ban                [47]: ERROR   Fail2ban seems to be in unexpected state (not running but the socket exists)
+[35mfront_1     |[0m 2021-01-30 16:17:11,700 fail2ban                [47]: ERROR   Async configuration of server failed
+[35mfront_1     |[0m ==> /var/log/access.log <==
+[35mfront_1     |[0m 
+[35mfront_1     |[0m ==> /var/log/error.log <==
+[35mfront_1     |[0m 
+[35mfront_1     |[0m ==> /var/log/jobs.log <==
+[35mfront_1     |[0m [30/01/2021 15:50:00] [BLACKLIST] referrers list updated (6921 entries)
+[35mfront_1     |[0m [30/01/2021 15:50:00] [BLACKLIST] user-agent list updated (1936 entries)
+[35mfront_1     |[0m [30/01/2021 15:50:01] [BLACKLIST] TOR exit node list updated (1592 entries)
+[35mfront_1     |[0m [30/01/2021 15:50:01] [NGINX] successfull nginx reload after TOR exit node list update
+[35mfront_1     |[0m [30/01/2021 16:00:02] [BLACKLIST] TOR exit node list updated (1592 entries)
+[35mfront_1     |[0m [30/01/2021 16:00:02] [NGINX] successfull nginx reload after TOR exit node list update
+[35mfront_1     |[0m 
+[35mfront_1     |[0m ==> /var/log/fail2ban.log <==
+[35mfront_1     |[0m 2021-01-30 15:58:16,009 fail2ban.filter         [56]: INFO      maxRetry: 15
+[35mfront_1     |[0m 2021-01-30 15:58:16,009 fail2ban.filter         [56]: INFO      findtime: 60
+[35mfront_1     |[0m 2021-01-30 15:58:16,009 fail2ban.actions        [56]: INFO      banTime: 3600
+[35mfront_1     |[0m 2021-01-30 15:58:16,010 fail2ban.filter         [56]: INFO      encoding: UTF-8
+[35mfront_1     |[0m 2021-01-30 15:58:16,011 fail2ban.filter         [56]: INFO    Added logfile: '/var/log/access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+[35mfront_1     |[0m 2021-01-30 15:58:16,013 fail2ban.jail           [56]: INFO    Jail 'nginx-filter' started
+[35mfront_1     |[0m 2021-01-30 16:01:54,312 fail2ban.server         [56]: INFO    Shutdown in progress...
+[35mfront_1     |[0m 2021-01-30 16:01:54,313 fail2ban.server         [56]: INFO    Stopping all jails
+[35mfront_1     |[0m 2021-01-30 16:01:54,313 fail2ban.filter         [56]: INFO    Removed logfile: '/var/log/access.log'
+[35mfront_1     |[0m 2021-01-30 16:01:54,463 fail2ban.actions        [56]: NOTICE  [nginx-filter] Flush ticket(s) with nginx-action
+[36mdb          |[0m 2021-01-30T16:17:11.756414Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+[36mdb          |[0m 2021-01-30T16:17:11.865777Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+[36mdb          |[0m 2021-01-30T16:17:11.952236Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+[36mdb          |[0m 2021-01-30T16:17:11.952592Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+[36mdb          |[0m 2021-01-30T16:17:11.954714Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[36mdb          |[0m 2021-01-30T16:17:11.977278Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.22'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:12.348] [INFO] APIHandler - [39mApi key file "/opt/etherpad-lite/APIKEY.txt" not found. Creating with random contents.
+[32metherpad_1  |[0m [31m[2021-01-30 16:17:12.348] [ERROR] console - [39mFailed to load '/opt/etherpad-lite/node_modules/ep_etherpad-lite/node/hooks/express/openapi:expressCreateServer' for 'ep_etherpad-lite/openapi/hooks/expressCreateServer': Error: EISDIR: illegal operation on a directory, open '/opt/etherpad-lite/APIKEY.txt'
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:12.380] [INFO] APIHandler - [39mApi key file "/opt/etherpad-lite/APIKEY.txt" not found. Creating with random contents.
+[32metherpad_1  |[0m [31m[2021-01-30 16:17:12.381] [ERROR] console - [39mFailed to load '/opt/etherpad-lite/node_modules/ep_etherpad-lite/node/hooks/express/apicalls:expressCreateServer' for 'ep_etherpad-lite/apicalls/hooks/expressCreateServer': Error: EISDIR: illegal operation on a directory, open '/opt/etherpad-lite/APIKEY.txt'
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:12.494] [INFO] console - [39mInstalled plugins: 
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:12.497] [INFO] APIHandler - [39mApi key file "/opt/etherpad-lite/APIKEY.txt" not found. Creating with random contents.
+[32metherpad_1  |[0m [31m[2021-01-30 16:17:12.497] [ERROR] console - [39mFailed to load 'ep_etherpad-lite/node/hooks/express/openapi:expressCreateServer' for 'ep_etherpad-lite/openapi/hooks/expressCreateServer': Error: EISDIR: illegal operation on a directory, open '/opt/etherpad-lite/APIKEY.txt'
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:12.499] [INFO] APIHandler - [39mApi key file "/opt/etherpad-lite/APIKEY.txt" not found. Creating with random contents.
+[32metherpad_1  |[0m [31m[2021-01-30 16:17:12.499] [ERROR] console - [39mFailed to load 'ep_etherpad-lite/node/hooks/express/apicalls:expressCreateServer' for 'ep_etherpad-lite/apicalls/hooks/expressCreateServer': Error: EISDIR: illegal operation on a directory, open '/opt/etherpad-lite/APIKEY.txt'
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:12.501] [INFO] console - [39mReport bugs at https://github.com/ether/etherpad-lite/issues
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:12.501] [INFO] console - [39mYour Etherpad version is 1.8.6 (2c8769a)
+[32metherpad_1  |[0m [32m[2021-01-30 16:17:12.607] [INFO] console - [39mYou can access your Etherpad instance at http://0.0.0.0:9001/
+[32metherpad_1  |[0m [33m[2021-01-30 16:17:12.607] [WARN] console - [39mAdmin username and password not set in settings.json.  To access admin please uncomment and edit 'users' in settings.json
+[32metherpad_1  |[0m Node worker_threads not available. Trying to fall back to tiny-worker polyfill...
+[32metherpad_1  |[0m Node worker_threads not available. Trying to fall back to tiny-worker polyfill...
+[33mback_1      |[0m __  ____  __  _____   ___  __ ____  ______ 
+[33mback_1      |[0m  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+[33mback_1      |[0m  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+[33mback_1      |[0m --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+[33mback_1      |[0m 2021-01-30 16:17:13,013 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,109 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonObjectWriter is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,109 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ByteArrayProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,110 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonArrayWriter is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,110 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StringTextStar is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,111 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StreamingOutputProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,111 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ReaderProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,112 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,115 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.DataSourceProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,119 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,119 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileRangeWriter is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,119 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.InputStreamProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:13,998 WARN  [io.agr.pool] (Agroal_14966318381) Datasource '<default>': Access denied for user ''@'172.18.0.4' (using password: NO)
+[33mback_1      |[0m 2021-01-30 16:17:13,999 WARN  [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) SQL Error: 1045, SQLState: 28000
+[33mback_1      |[0m 2021-01-30 16:17:13,999 ERROR [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) Access denied for user ''@'172.18.0.4' (using password: NO)
+[33mback_1      |[0m 2021-01-30 16:17:14,002 ERROR [io.qua.application] (main) Failed to start application (with profile prod): javax.persistence.PersistenceException: [PersistenceUnit: <default>] Unable to build Hibernate SessionFactory
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.persistenceException(FastBootEntityManagerFactoryBuilder.java:115)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:75)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:56)
+[33mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+[33mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:117)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig.startAll(JPAConfig.java:41)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder.startAllPersistenceUnits(HibernateOrmRecorder.java:82)
+[33mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy_0(HibernateOrmProcessor$startPersistenceUnits951856026.zig:74)
+[33mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy(HibernateOrmProcessor$startPersistenceUnits951856026.zig:40)
+[33mback_1      |[0m 	at io.quarkus.runner.ApplicationImpl.doStart(ApplicationImpl.zig:762)
+[33mback_1      |[0m 	at io.quarkus.runtime.Application.start(Application.java:90)
+[33mback_1      |[0m 	at io.quarkus.runtime.ApplicationLifecycleManager.run(ApplicationLifecycleManager.java:91)
+[33mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:61)
+[33mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:38)
+[33mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:106)
+[33mback_1      |[0m 	at io.quarkus.runner.GeneratedMain.main(GeneratedMain.zig:29)
+[33mback_1      |[0m Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+[33mback_1      |[0m 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+[33mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+[33mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+[33mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.DdlTransactionIsolatorJtaImpl.<init>(DdlTransactionIsolatorJtaImpl.java:62)
+[33mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl.buildDdlTransactionIsolator(JtaTransactionCoordinatorBuilderImpl.java:46)
+[33mback_1      |[0m 	at org.hibernate.tool.schema.internal.HibernateSchemaManagementTool.getDdlTransactionIsolator(HibernateSchemaManagementTool.java:188)
+[33mback_1      |[0m 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:94)
+[33mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+[33mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+[33mback_1      |[0m 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:73)
+[33mback_1      |[0m 	... 15 more
+[33mback_1      |[0m Caused by: java.sql.SQLException: Access denied for user ''@'172.18.0.4' (using password: NO)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+[33mback_1      |[0m 	at io.agroal.pool.ConnectionFactory.createConnection(ConnectionFactory.java:200)
+[33mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:419)
+[33mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:401)
+[33mback_1      |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[33mback_1      |[0m 	at io.agroal.pool.util.PriorityScheduledExecutor.beforeExecute(PriorityScheduledExecutor.java:65)
+[33mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1126)
+[33mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[33mback_1      |[0m 	at java.base/java.lang.Thread.run(Thread.java:834)
+[33mback_1      |[0m 
+[33;1mback_1      |[0m __  ____  __  _____   ___  __ ____  ______ 
+[33;1mback_1      |[0m  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+[33;1mback_1      |[0m  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+[33;1mback_1      |[0m --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+[33;1mback_1      |[0m 2021-01-30 16:17:16,514 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileProvider is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,612 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonObjectWriter is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,612 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ByteArrayProvider is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,613 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonArrayWriter is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,613 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StringTextStar is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,614 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StreamingOutputProvider is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,614 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ReaderProvider is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,614 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,617 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.DataSourceProvider is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,621 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,621 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileRangeWriter is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:16,621 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.InputStreamProvider is already registered.  2nd registration is being ignored.
+[33;1mback_1      |[0m 2021-01-30 16:17:17,544 WARN  [io.agr.pool] (Agroal_14966318381) Datasource '<default>': Access denied for user ''@'172.18.0.4' (using password: NO)
+[33;1mback_1      |[0m 2021-01-30 16:17:17,545 WARN  [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) SQL Error: 1045, SQLState: 28000
+[33;1mback_1      |[0m 2021-01-30 16:17:17,546 ERROR [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) Access denied for user ''@'172.18.0.4' (using password: NO)
+[33;1mback_1      |[0m 2021-01-30 16:17:17,551 ERROR [io.qua.application] (main) Failed to start application (with profile prod): javax.persistence.PersistenceException: [PersistenceUnit: <default>] Unable to build Hibernate SessionFactory
+[33;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.persistenceException(FastBootEntityManagerFactoryBuilder.java:115)
+[33;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:75)
+[33;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:56)
+[33;1mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+[33;1mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+[33;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:117)
+[33;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig.startAll(JPAConfig.java:41)
+[33;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder.startAllPersistenceUnits(HibernateOrmRecorder.java:82)
+[33;1mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy_0(HibernateOrmProcessor$startPersistenceUnits951856026.zig:74)
+[33;1mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy(HibernateOrmProcessor$startPersistenceUnits951856026.zig:40)
+[33;1mback_1      |[0m 	at io.quarkus.runner.ApplicationImpl.doStart(ApplicationImpl.zig:762)
+[33;1mback_1      |[0m 	at io.quarkus.runtime.Application.start(Application.java:90)
+[33;1mback_1      |[0m 	at io.quarkus.runtime.ApplicationLifecycleManager.run(ApplicationLifecycleManager.java:91)
+[33;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:61)
+[33;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:38)
+[33;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:106)
+[33;1mback_1      |[0m 	at io.quarkus.runner.GeneratedMain.main(GeneratedMain.zig:29)
+[33;1mback_1      |[0m Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+[33;1mback_1      |[0m 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+[33;1mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+[33;1mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+[33;1mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.DdlTransactionIsolatorJtaImpl.<init>(DdlTransactionIsolatorJtaImpl.java:62)
+[33;1mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl.buildDdlTransactionIsolator(JtaTransactionCoordinatorBuilderImpl.java:46)
+[33;1mback_1      |[0m 	at org.hibernate.tool.schema.internal.HibernateSchemaManagementTool.getDdlTransactionIsolator(HibernateSchemaManagementTool.java:188)
+[33;1mback_1      |[0m 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:94)
+[33;1mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+[33;1mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+[33;1mback_1      |[0m 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+[33;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:73)
+[33;1mback_1      |[0m 	... 15 more
+[33;1mback_1      |[0m Caused by: java.sql.SQLException: Access denied for user ''@'172.18.0.4' (using password: NO)
+[33;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+[33;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+[33;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[33;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+[33;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+[33;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+[33;1mback_1      |[0m 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+[33;1mback_1      |[0m 	at io.agroal.pool.ConnectionFactory.createConnection(ConnectionFactory.java:200)
+[33;1mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:419)
+[33;1mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:401)
+[33;1mback_1      |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[33;1mback_1      |[0m 	at io.agroal.pool.util.PriorityScheduledExecutor.beforeExecute(PriorityScheduledExecutor.java:65)
+[33;1mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1126)
+[33;1mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[33;1mback_1      |[0m 	at java.base/java.lang.Thread.run(Thread.java:834)
+[33;1mback_1      |[0m 
+[33mdoodlestudent_back_1 exited with code 1
+[0m[32;1mback_1      |[0m __  ____  __  _____   ___  __ ____  ______ 
+[32;1mback_1      |[0m  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+[32;1mback_1      |[0m  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+[32;1mback_1      |[0m --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+[32;1mback_1      |[0m 2021-01-30 16:17:20,090 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileProvider is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,185 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonObjectWriter is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,185 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ByteArrayProvider is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,185 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonArrayWriter is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,185 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StringTextStar is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,186 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StreamingOutputProvider is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,186 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ReaderProvider is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,187 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,189 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.DataSourceProvider is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,193 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,193 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileRangeWriter is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:20,193 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.InputStreamProvider is already registered.  2nd registration is being ignored.
+[32;1mback_1      |[0m 2021-01-30 16:17:21,048 WARN  [io.agr.pool] (Agroal_11985310541) Datasource '<default>': Access denied for user ''@'172.18.0.4' (using password: NO)
+[32;1mback_1      |[0m 2021-01-30 16:17:21,049 WARN  [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) SQL Error: 1045, SQLState: 28000
+[32;1mback_1      |[0m 2021-01-30 16:17:21,049 ERROR [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) Access denied for user ''@'172.18.0.4' (using password: NO)
+[32;1mback_1      |[0m 2021-01-30 16:17:21,053 ERROR [io.qua.application] (main) Failed to start application (with profile prod): javax.persistence.PersistenceException: [PersistenceUnit: <default>] Unable to build Hibernate SessionFactory
+[32;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.persistenceException(FastBootEntityManagerFactoryBuilder.java:115)
+[32;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:75)
+[32;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:56)
+[32;1mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+[32;1mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+[32;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:117)
+[32;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig.startAll(JPAConfig.java:41)
+[32;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder.startAllPersistenceUnits(HibernateOrmRecorder.java:82)
+[32;1mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy_0(HibernateOrmProcessor$startPersistenceUnits951856026.zig:74)
+[32;1mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy(HibernateOrmProcessor$startPersistenceUnits951856026.zig:40)
+[32;1mback_1      |[0m 	at io.quarkus.runner.ApplicationImpl.doStart(ApplicationImpl.zig:762)
+[32;1mback_1      |[0m 	at io.quarkus.runtime.Application.start(Application.java:90)
+[32;1mback_1      |[0m 	at io.quarkus.runtime.ApplicationLifecycleManager.run(ApplicationLifecycleManager.java:91)
+[32;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:61)
+[32;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:38)
+[32;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:106)
+[32;1mback_1      |[0m 	at io.quarkus.runner.GeneratedMain.main(GeneratedMain.zig:29)
+[32;1mback_1      |[0m Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+[32;1mback_1      |[0m 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+[32;1mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+[32;1mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+[32;1mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.DdlTransactionIsolatorJtaImpl.<init>(DdlTransactionIsolatorJtaImpl.java:62)
+[32;1mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl.buildDdlTransactionIsolator(JtaTransactionCoordinatorBuilderImpl.java:46)
+[32;1mback_1      |[0m 	at org.hibernate.tool.schema.internal.HibernateSchemaManagementTool.getDdlTransactionIsolator(HibernateSchemaManagementTool.java:188)
+[32;1mback_1      |[0m 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:94)
+[32;1mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+[32;1mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+[32;1mback_1      |[0m 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+[32;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:73)
+[32;1mback_1      |[0m 	... 15 more
+[32;1mback_1      |[0m Caused by: java.sql.SQLException: Access denied for user ''@'172.18.0.4' (using password: NO)
+[32;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+[32;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+[32;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[32;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+[32;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+[32;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+[32;1mback_1      |[0m 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+[32;1mback_1      |[0m 	at io.agroal.pool.ConnectionFactory.createConnection(ConnectionFactory.java:200)
+[32;1mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:419)
+[32;1mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:401)
+[32;1mback_1      |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[32;1mback_1      |[0m 	at io.agroal.pool.util.PriorityScheduledExecutor.beforeExecute(PriorityScheduledExecutor.java:65)
+[32;1mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1126)
+[32;1mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[32;1mback_1      |[0m 	at java.base/java.lang.Thread.run(Thread.java:834)
+[32;1mback_1      |[0m 
+[33;1mdoodlestudent_back_1 exited with code 1
+[0m[35;1mback_1      |[0m __  ____  __  _____   ___  __ ____  ______ 
+[35;1mback_1      |[0m  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+[35;1mback_1      |[0m  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+[35;1mback_1      |[0m --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+[35;1mback_1      |[0m 2021-01-30 16:17:23,736 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileProvider is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,833 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonObjectWriter is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,833 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ByteArrayProvider is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,834 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonArrayWriter is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,834 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StringTextStar is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,835 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StreamingOutputProvider is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,835 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ReaderProvider is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,835 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,838 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.DataSourceProvider is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,842 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,842 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileRangeWriter is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:23,842 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.InputStreamProvider is already registered.  2nd registration is being ignored.
+[35;1mback_1      |[0m 2021-01-30 16:17:24,679 WARN  [io.agr.pool] (Agroal_11985310541) Datasource '<default>': Access denied for user ''@'172.18.0.4' (using password: NO)
+[35;1mback_1      |[0m 2021-01-30 16:17:24,680 WARN  [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) SQL Error: 1045, SQLState: 28000
+[35;1mback_1      |[0m 2021-01-30 16:17:24,680 ERROR [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) Access denied for user ''@'172.18.0.4' (using password: NO)
+[35;1mback_1      |[0m 2021-01-30 16:17:24,685 ERROR [io.qua.application] (main) Failed to start application (with profile prod): javax.persistence.PersistenceException: [PersistenceUnit: <default>] Unable to build Hibernate SessionFactory
+[35;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.persistenceException(FastBootEntityManagerFactoryBuilder.java:115)
+[35;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:75)
+[35;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:56)
+[35;1mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+[35;1mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+[35;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:117)
+[35;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig.startAll(JPAConfig.java:41)
+[35;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder.startAllPersistenceUnits(HibernateOrmRecorder.java:82)
+[35;1mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy_0(HibernateOrmProcessor$startPersistenceUnits951856026.zig:74)
+[35;1mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy(HibernateOrmProcessor$startPersistenceUnits951856026.zig:40)
+[35;1mback_1      |[0m 	at io.quarkus.runner.ApplicationImpl.doStart(ApplicationImpl.zig:762)
+[35;1mback_1      |[0m 	at io.quarkus.runtime.Application.start(Application.java:90)
+[35;1mback_1      |[0m 	at io.quarkus.runtime.ApplicationLifecycleManager.run(ApplicationLifecycleManager.java:91)
+[35;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:61)
+[35;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:38)
+[35;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:106)
+[35;1mback_1      |[0m 	at io.quarkus.runner.GeneratedMain.main(GeneratedMain.zig:29)
+[35;1mback_1      |[0m Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+[35;1mback_1      |[0m 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+[35;1mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+[35;1mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+[35;1mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.DdlTransactionIsolatorJtaImpl.<init>(DdlTransactionIsolatorJtaImpl.java:62)
+[35;1mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl.buildDdlTransactionIsolator(JtaTransactionCoordinatorBuilderImpl.java:46)
+[35;1mback_1      |[0m 	at org.hibernate.tool.schema.internal.HibernateSchemaManagementTool.getDdlTransactionIsolator(HibernateSchemaManagementTool.java:188)
+[35;1mback_1      |[0m 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:94)
+[35;1mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+[35;1mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+[35;1mback_1      |[0m 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+[35;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:73)
+[35;1mback_1      |[0m 	... 15 more
+[35;1mback_1      |[0m Caused by: java.sql.SQLException: Access denied for user ''@'172.18.0.4' (using password: NO)
+[35;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+[35;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+[35;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[35;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+[35;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+[35;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+[35;1mback_1      |[0m 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+[35;1mback_1      |[0m 	at io.agroal.pool.ConnectionFactory.createConnection(ConnectionFactory.java:200)
+[35;1mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:419)
+[35;1mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:401)
+[35;1mback_1      |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[35;1mback_1      |[0m 	at io.agroal.pool.util.PriorityScheduledExecutor.beforeExecute(PriorityScheduledExecutor.java:65)
+[35;1mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1126)
+[35;1mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[35;1mback_1      |[0m 	at java.base/java.lang.Thread.run(Thread.java:834)
+[35;1mback_1      |[0m 
+[32;1mdoodlestudent_back_1 exited with code 1
+[0m[34;1mback_1      |[0m __  ____  __  _____   ___  __ ____  ______ 
+[34;1mback_1      |[0m  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+[34;1mback_1      |[0m  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+[34;1mback_1      |[0m --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+[34;1mback_1      |[0m 2021-01-30 16:17:28,020 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileProvider is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,118 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonObjectWriter is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,118 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ByteArrayProvider is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,118 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonArrayWriter is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,118 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StringTextStar is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,119 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StreamingOutputProvider is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,119 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ReaderProvider is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,119 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,122 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.DataSourceProvider is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,126 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,126 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileRangeWriter is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,126 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.InputStreamProvider is already registered.  2nd registration is being ignored.
+[34;1mback_1      |[0m 2021-01-30 16:17:28,989 WARN  [io.agr.pool] (Agroal_11985310541) Datasource '<default>': Access denied for user ''@'172.18.0.4' (using password: NO)
+[34;1mback_1      |[0m 2021-01-30 16:17:28,990 WARN  [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) SQL Error: 1045, SQLState: 28000
+[34;1mback_1      |[0m 2021-01-30 16:17:28,990 ERROR [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) Access denied for user ''@'172.18.0.4' (using password: NO)
+[34;1mback_1      |[0m 2021-01-30 16:17:28,994 ERROR [io.qua.application] (main) Failed to start application (with profile prod): javax.persistence.PersistenceException: [PersistenceUnit: <default>] Unable to build Hibernate SessionFactory
+[34;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.persistenceException(FastBootEntityManagerFactoryBuilder.java:115)
+[34;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:75)
+[34;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:56)
+[34;1mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+[34;1mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+[34;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:117)
+[34;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig.startAll(JPAConfig.java:41)
+[34;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder.startAllPersistenceUnits(HibernateOrmRecorder.java:82)
+[34;1mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy_0(HibernateOrmProcessor$startPersistenceUnits951856026.zig:74)
+[34;1mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy(HibernateOrmProcessor$startPersistenceUnits951856026.zig:40)
+[34;1mback_1      |[0m 	at io.quarkus.runner.ApplicationImpl.doStart(ApplicationImpl.zig:762)
+[34;1mback_1      |[0m 	at io.quarkus.runtime.Application.start(Application.java:90)
+[34;1mback_1      |[0m 	at io.quarkus.runtime.ApplicationLifecycleManager.run(ApplicationLifecycleManager.java:91)
+[34;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:61)
+[34;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:38)
+[34;1mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:106)
+[34;1mback_1      |[0m 	at io.quarkus.runner.GeneratedMain.main(GeneratedMain.zig:29)
+[34;1mback_1      |[0m Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+[34;1mback_1      |[0m 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+[34;1mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+[34;1mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+[34;1mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.DdlTransactionIsolatorJtaImpl.<init>(DdlTransactionIsolatorJtaImpl.java:62)
+[34;1mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl.buildDdlTransactionIsolator(JtaTransactionCoordinatorBuilderImpl.java:46)
+[34;1mback_1      |[0m 	at org.hibernate.tool.schema.internal.HibernateSchemaManagementTool.getDdlTransactionIsolator(HibernateSchemaManagementTool.java:188)
+[34;1mback_1      |[0m 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:94)
+[34;1mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+[34;1mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+[34;1mback_1      |[0m 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+[34;1mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:73)
+[34;1mback_1      |[0m 	... 15 more
+[34;1mback_1      |[0m Caused by: java.sql.SQLException: Access denied for user ''@'172.18.0.4' (using password: NO)
+[34;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+[34;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+[34;1mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[34;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+[34;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+[34;1mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+[34;1mback_1      |[0m 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+[34;1mback_1      |[0m 	at io.agroal.pool.ConnectionFactory.createConnection(ConnectionFactory.java:200)
+[34;1mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:419)
+[34;1mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:401)
+[34;1mback_1      |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[34;1mback_1      |[0m 	at io.agroal.pool.util.PriorityScheduledExecutor.beforeExecute(PriorityScheduledExecutor.java:65)
+[34;1mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1126)
+[34;1mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[34;1mback_1      |[0m 	at java.base/java.lang.Thread.run(Thread.java:834)
+[34;1mback_1      |[0m 
+[35;1mdoodlestudent_back_1 exited with code 1
+[0m[36mback_1      |[0m __  ____  __  _____   ___  __ ____  ______ 
+[36mback_1      |[0m  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+[36mback_1      |[0m  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+[36mback_1      |[0m --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+[36mback_1      |[0m 2021-01-30 16:17:32,996 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileProvider is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,094 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonObjectWriter is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,094 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ByteArrayProvider is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,095 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonArrayWriter is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,095 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StringTextStar is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,096 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StreamingOutputProvider is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,096 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ReaderProvider is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,097 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,100 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.DataSourceProvider is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,104 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,104 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileRangeWriter is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,104 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.InputStreamProvider is already registered.  2nd registration is being ignored.
+[36mback_1      |[0m 2021-01-30 16:17:33,943 WARN  [io.agr.pool] (Agroal_14966318381) Datasource '<default>': Access denied for user ''@'172.18.0.4' (using password: NO)
+[36mback_1      |[0m 2021-01-30 16:17:33,944 WARN  [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) SQL Error: 1045, SQLState: 28000
+[36mback_1      |[0m 2021-01-30 16:17:33,944 ERROR [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) Access denied for user ''@'172.18.0.4' (using password: NO)
+[36mback_1      |[0m 2021-01-30 16:17:33,949 ERROR [io.qua.application] (main) Failed to start application (with profile prod): javax.persistence.PersistenceException: [PersistenceUnit: <default>] Unable to build Hibernate SessionFactory
+[36mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.persistenceException(FastBootEntityManagerFactoryBuilder.java:115)
+[36mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:75)
+[36mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:56)
+[36mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+[36mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+[36mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:117)
+[36mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig.startAll(JPAConfig.java:41)
+[36mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder.startAllPersistenceUnits(HibernateOrmRecorder.java:82)
+[36mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy_0(HibernateOrmProcessor$startPersistenceUnits951856026.zig:74)
+[36mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy(HibernateOrmProcessor$startPersistenceUnits951856026.zig:40)
+[36mback_1      |[0m 	at io.quarkus.runner.ApplicationImpl.doStart(ApplicationImpl.zig:762)
+[36mback_1      |[0m 	at io.quarkus.runtime.Application.start(Application.java:90)
+[36mback_1      |[0m 	at io.quarkus.runtime.ApplicationLifecycleManager.run(ApplicationLifecycleManager.java:91)
+[36mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:61)
+[36mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:38)
+[36mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:106)
+[36mback_1      |[0m 	at io.quarkus.runner.GeneratedMain.main(GeneratedMain.zig:29)
+[36mback_1      |[0m Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+[36mback_1      |[0m 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+[36mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+[36mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+[36mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.DdlTransactionIsolatorJtaImpl.<init>(DdlTransactionIsolatorJtaImpl.java:62)
+[36mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl.buildDdlTransactionIsolator(JtaTransactionCoordinatorBuilderImpl.java:46)
+[36mback_1      |[0m 	at org.hibernate.tool.schema.internal.HibernateSchemaManagementTool.getDdlTransactionIsolator(HibernateSchemaManagementTool.java:188)
+[36mback_1      |[0m 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:94)
+[36mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+[36mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+[36mback_1      |[0m 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+[36mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:73)
+[36mback_1      |[0m 	... 15 more
+[36mback_1      |[0m Caused by: java.sql.SQLException: Access denied for user ''@'172.18.0.4' (using password: NO)
+[36mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+[36mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+[36mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[36mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+[36mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+[36mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+[36mback_1      |[0m 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+[36mback_1      |[0m 	at io.agroal.pool.ConnectionFactory.createConnection(ConnectionFactory.java:200)
+[36mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:419)
+[36mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:401)
+[36mback_1      |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[36mback_1      |[0m 	at io.agroal.pool.util.PriorityScheduledExecutor.beforeExecute(PriorityScheduledExecutor.java:65)
+[36mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1126)
+[36mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[36mback_1      |[0m 	at java.base/java.lang.Thread.run(Thread.java:834)
+[36mback_1      |[0m 
+[34;1mdoodlestudent_back_1 exited with code 1
+[0m[33mback_1      |[0m __  ____  __  _____   ___  __ ____  ______ 
+[33mback_1      |[0m  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+[33mback_1      |[0m  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+[33mback_1      |[0m --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+[33mback_1      |[0m 2021-01-30 16:17:39,505 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,603 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonObjectWriter is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,603 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ByteArrayProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,604 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class io.quarkus.resteasy.runtime.vertx.JsonArrayWriter is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,604 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StringTextStar is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,605 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.StreamingOutputProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,605 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.ReaderProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,605 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,607 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.DataSourceProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,612 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,612 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.FileRangeWriter is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:39,612 WARN  [org.jbo.res.res.i18n] (main) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.InputStreamProvider is already registered.  2nd registration is being ignored.
+[33mback_1      |[0m 2021-01-30 16:17:40,494 WARN  [io.agr.pool] (Agroal_14966318381) Datasource '<default>': Access denied for user ''@'172.18.0.4' (using password: NO)
+[33mback_1      |[0m 2021-01-30 16:17:40,495 WARN  [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) SQL Error: 1045, SQLState: 28000
+[33mback_1      |[0m 2021-01-30 16:17:40,495 ERROR [org.hib.eng.jdb.spi.SqlExceptionHelper] (main) Access denied for user ''@'172.18.0.4' (using password: NO)
+[33mback_1      |[0m 2021-01-30 16:17:40,499 ERROR [io.qua.application] (main) Failed to start application (with profile prod): javax.persistence.PersistenceException: [PersistenceUnit: <default>] Unable to build Hibernate SessionFactory
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.persistenceException(FastBootEntityManagerFactoryBuilder.java:115)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:75)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:56)
+[33mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+[33mback_1      |[0m 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:117)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.JPAConfig.startAll(JPAConfig.java:41)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder.startAllPersistenceUnits(HibernateOrmRecorder.java:82)
+[33mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy_0(HibernateOrmProcessor$startPersistenceUnits951856026.zig:74)
+[33mback_1      |[0m 	at io.quarkus.deployment.steps.HibernateOrmProcessor$startPersistenceUnits951856026.deploy(HibernateOrmProcessor$startPersistenceUnits951856026.zig:40)
+[33mback_1      |[0m 	at io.quarkus.runner.ApplicationImpl.doStart(ApplicationImpl.zig:762)
+[33mback_1      |[0m 	at io.quarkus.runtime.Application.start(Application.java:90)
+[33mback_1      |[0m 	at io.quarkus.runtime.ApplicationLifecycleManager.run(ApplicationLifecycleManager.java:91)
+[33mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:61)
+[33mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:38)
+[33mback_1      |[0m 	at io.quarkus.runtime.Quarkus.run(Quarkus.java:106)
+[33mback_1      |[0m 	at io.quarkus.runner.GeneratedMain.main(GeneratedMain.zig:29)
+[33mback_1      |[0m Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+[33mback_1      |[0m 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+[33mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+[33mback_1      |[0m 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+[33mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.DdlTransactionIsolatorJtaImpl.<init>(DdlTransactionIsolatorJtaImpl.java:62)
+[33mback_1      |[0m 	at org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl.buildDdlTransactionIsolator(JtaTransactionCoordinatorBuilderImpl.java:46)
+[33mback_1      |[0m 	at org.hibernate.tool.schema.internal.HibernateSchemaManagementTool.getDdlTransactionIsolator(HibernateSchemaManagementTool.java:188)
+[33mback_1      |[0m 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:94)
+[33mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+[33mback_1      |[0m 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+[33mback_1      |[0m 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+[33mback_1      |[0m 	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:73)
+[33mback_1      |[0m 	... 15 more
+[33mback_1      |[0m Caused by: java.sql.SQLException: Access denied for user ''@'172.18.0.4' (using password: NO)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+[33mback_1      |[0m 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+[33mback_1      |[0m 	at io.agroal.pool.ConnectionFactory.createConnection(ConnectionFactory.java:200)
+[33mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:419)
+[33mback_1      |[0m 	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:401)
+[33mback_1      |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[33mback_1      |[0m 	at io.agroal.pool.util.PriorityScheduledExecutor.beforeExecute(PriorityScheduledExecutor.java:65)
+[33mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1126)
+[33mback_1      |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[33mback_1      |[0m 	at java.base/java.lang.Thread.run(Thread.java:834)
+[33mback_1      |[0m 
+[36mdoodlestudent_back_1 exited with code 1
+[0mGracefully stopping... (press Ctrl+C again to force)

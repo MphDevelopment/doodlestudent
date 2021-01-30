@@ -1,6 +1,7 @@
 version: "3"
 services:
   db:
+    container_name: db
     image: mysql
     ports:
       - "3306:3306"
@@ -30,16 +31,16 @@ services:
       - PMA_ABSOLUTE_URI=http://myadmin.blc.diverse-team.fr
   back:
     image: back-tlc
-    build: ../api
+    build: ./api
     restart: on-failure
     ports: 
       - "8080:8080"
   front:
     image: front-tlc
-    build: ../front
+    build: ./front
     volumes:
-      - ../server-confs:/server-confs
-      - ../front/dist/tlcfront:/www
+      - ./server-confs:/server-confs
+      - ./front/dist/tlcfront:/www
     ports:
       - "80:8080"
       - "443:83"
