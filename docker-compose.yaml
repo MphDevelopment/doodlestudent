@@ -40,12 +40,11 @@ services:
     build: ./front
     volumes:
       - ./server-confs:/server-confs
-      - ./front/dist/tlcfront:/www
     ports:
       - "80:8080"
       - "443:83"
     environment:
-      - SERVER_NAME=blc.diverse-team.fr
+      - SERVER_NAME=blc.diverse-team.fr doodle.blc.diverse-team.fr pad.blc.diverse-team.fr phpmyadmin.blc.diverse-team.fr
       - SERVE_FILES=yes
       - DISABLE_DEFAULT_SERVER=no
       - PROXY_REAL_IP=yes
